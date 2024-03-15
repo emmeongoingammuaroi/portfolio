@@ -154,30 +154,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Cuong and I am an experienced full-stack developer with a passion
+              for AI. I have 4+ years of expertise in Django for backend development and 3 years in
+              Vue.js/React for frontend.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              My expertise in both front-end and back-end development, as well as my experience in
+              DevOps, allows me to seamlessly integrate the latest technologies and trends,
+              delivering exceptional results that exceed expectations. I am committed to staying
+              up-to-date with the latest industry developments and am always eager to learn and grow
+              in my field.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              In addition to my expertise, I possess a solid understanding of data science, machine
+              learning, deep learning, system design, algorithms, and more, further enhancing my
+              capabilities.
+            </p>
+
+            <p>
+              Explore my portfolio to see some of my impressive work, and feel free to get in touch
+              to learn more about how I can help you bring your project to life
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
