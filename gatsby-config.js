@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Nguyen Cuong',
+    title: 'Nguyen Quoc Cuong',
     description:
-      'Nguyen Cuong is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Nguyen Quoc Cuong is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://emmeongoingammuaroi.github.io/portfolio',
   },
   plugins: [
