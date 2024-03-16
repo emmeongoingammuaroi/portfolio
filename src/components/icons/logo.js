@@ -14,7 +14,7 @@ const IconLogo = () => (
           points="39,0 0,22 0,67 39,90 78,67 78,22"
           fill="none"
         />
-        <text x="35%" y="55%" fontSize="30" fontFamily="Arial, sans-serif" fill="currentColor">
+        <text x="20%" y="70%" fontSize="60" fontFamily="Arial, sans-serif" fill="currentColor">
           C
         </text>
       </g>
