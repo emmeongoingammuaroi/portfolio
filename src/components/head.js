@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 const Head = ({ title }) => {
   const seo = {
-    title: title || 'Nguyen Cuong',
+    title: title || 'Nguyen Quoc Cuong',
   };
 
   return (
