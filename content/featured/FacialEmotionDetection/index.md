@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '4'
 title: 'Facial Emotion Detection'
 cover: './demo.png'
 github: 'https://github.com/emmeongoingammuaroi/facial-emotion-detection'

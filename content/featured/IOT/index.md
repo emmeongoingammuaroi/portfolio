@@ -1,5 +1,5 @@
 ---
-date: '5'
+date: '2'
 title: 'IoT Smart Home'
 cover: './demo.png'
 github: 'https://github.com/emmeongoingammuaroi/IOT'

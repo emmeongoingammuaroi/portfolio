@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Image Captioning'
 cover: './demo.png'
 github: 'https://github.com/emmeongoingammuaroi/image-captioning'
