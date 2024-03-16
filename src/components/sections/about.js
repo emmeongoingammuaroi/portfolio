@@ -154,28 +154,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Cuong and I am an experienced full-stack developer with a passion
+              Hi there! My name is Cuong and I am an experienced full-stack developer with a passion
               for AI. I have 4+ years of expertise in Django for backend development and 3 years in
               Vue.js/React for frontend.
             </p>
 
             <p>
-              My expertise in both front-end and back-end development, as well as my experience in
-              DevOps, allows me to seamlessly integrate the latest technologies and trends,
-              delivering exceptional results that exceed expectations. I am committed to staying
-              up-to-date with the latest industry developments and am always eager to learn and grow
-              in my field.
+              My proficiency spans both front-end and back-end development, augmented by my
+              adeptness in DevOps practices. This enables me to seamlessly integrate cutting-edge
+              technologies, ensuring exceptional outcomes that consistently surpass expectations.
+              I'm dedicated to staying abreast of industry advancements, always eager to expand my
+              knowledge and skills.
             </p>
 
             <p>
-              In addition to my expertise, I possess a solid understanding of data science, machine
-              learning, deep learning, system design, algorithms, and more, further enhancing my
-              capabilities.
+              Beyond my technical proficiency, I possess a strong foundation in data science,
+              machine learning, deep learning, system design, algorithms, and more. This broad skill
+              set further bolsters my capabilities.
             </p>
 
             <p>
-              Explore my portfolio to see some of my impressive work, and feel free to get in touch
-              to learn more about how I can help you bring your project to life
+              Take a look at my portfolio to explore some of my standout projects. Don't hesitate to
+              reach out—I'd love to discuss how I can help bring your project to life.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
