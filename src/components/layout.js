@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-import { Head, Loader, Nav, Social, Email } from '@components';
+import { Head, Nav, Social, Email } from '@components';
 import { GlobalStyle, theme } from '@styles';
 
 const StyledContent = styled.div`
@@ -12,7 +12,7 @@ const StyledContent = styled.div`
 
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
-  const [isLoading, setIsLoading] = useState(isHome);
+  const [isLoading] = useState(isHome);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
@@ -57,21 +57,16 @@ const Layout = ({ children, location }) => {
           <a className="skip-to-content" href="#content">
             Skip to Content
           </a>
+          <StyledContent>
+            <Nav isHome={isHome} />
+            <Social isHome={isHome} />
+            <Email isHome={isHome} />
 
-          {isLoading && isHome ? (
-            <Loader finishLoading={() => setIsLoading(false)} />
-          ) : (
-            <StyledContent>
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
-
-              <div id="content">
-                {children}
-                {/* <Footer /> */}
-              </div>
-            </StyledContent>
-          )}
+            <div id="content">
+              {children}
+              {/* <Footer /> */}
+            </div>
+          </StyledContent>
         </ThemeProvider>
       </div>
     </>
