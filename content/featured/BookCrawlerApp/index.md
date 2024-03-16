@@ -9,6 +9,7 @@ tech:
   - PostgreSQL
   - Beautiful Soup
   - Selenium
+  - Web scraping
   - Heroku
 ---
 
