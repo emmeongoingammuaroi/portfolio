@@ -4,7 +4,7 @@ title: 'Full Stack Developer & Tech Lead'
 company: 'TechBuilding'
 location: 'Ha Noi, Viet Nam'
 range: 'May 2023 – Present'
-url: 'https://www.apple.com/music/'
+url: ''
 ---
 
 - Led a team of 4 members, defining architecture, coding conventions, and setting up CI/CD pipelines, resulting in a 15% increase in development efficiency.
