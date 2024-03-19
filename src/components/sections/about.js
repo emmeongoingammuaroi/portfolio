@@ -169,8 +169,8 @@ const About = () => {
 
             <p>
               Beyond my technical proficiency, I possess a strong foundation in data science,
-              machine learning, deep learning, system design, algorithms, and more. This broad skill
-              set further bolsters my capabilities.
+              machine learning, deep learning, system design, design patterns, algorithms, and more.
+              This broad skill set further bolsters my capabilities.
             </p>
 
             <p>
