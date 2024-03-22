@@ -3,7 +3,7 @@ date: '1'
 title: 'PMIS'
 cover: './demo.png'
 github: ''
-external: ''
+external: 'https://youtu.be/C7ijIPnHug4'
 tech:
   - Django
   - PostgreSQL
