@@ -138,7 +138,7 @@ const About = () => {
     'MongoDB',
     'Redis',
     'Elasticsearch',
-    'Kafka',
+    'Apache Kafka',
     'RESTful API, GraphQL',
     'Websocket',
     'AWS',
