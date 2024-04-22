@@ -154,23 +154,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! My name is Cuong and I am an experienced full-stack developer with a passion
-              for AI. I have 4+ years of expertise in Django for backend development and 3 years in
-              Vue.js/React for frontend.
+              Hi there! My name is Cuong, and I am an experienced full-stack developer with a deep
+              interest in AI. I have over 5 years of experience with Python and 4 years with
+              JavaScript. In backend development, I have 4+ years of experience using Django, while
+              in frontend development, I have 3 years of experience with both Vue.js and React.
             </p>
 
             <p>
-              My proficiency spans both front-end and back-end development, augmented by my
-              adeptness in DevOps practices. This enables me to seamlessly integrate cutting-edge
-              technologies, ensuring exceptional outcomes that consistently surpass expectations.
-              I'm dedicated to staying abreast of industry advancements, always eager to expand my
-              knowledge and skills.
+              I excel in all stages of the software development lifecycle, from initial
+              conceptualization and design to seamless implementation and deployment. My proficiency
+              spans across backend, frontend, and DevOps.
             </p>
 
             <p>
-              Beyond my technical proficiency, I possess a strong foundation in data science
-              (machine learning, deep learning), system design, design patterns, SOLID principles,
-              algorithms, and more. This broad skill set further bolsters my capabilities.
+              Moreover, my expertise extends to system design, relational and non-relational
+              databases, SOLID principles, design patterns, algorithms, and a wide array of
+              AI-related fields, including data science, data analysis, machine learning, and deep
+              learning.
+            </p>
+
+            <p>
+              My best notable achievement is spearheading the development of PMIS, a multi-tenant
+              SaaS construction project management system. PMIS caters to over 1000 users across 4
+              prominent companies (DDIC, CH Group, EPM, Mitalab). Built with a robust tech stack
+              comprising Django, Django Rest Framework, Nuxt.js, PostgreSQL, Redis, Elasticsearch,
+              Celery, and hosted on AWS, PMIS offers a comprehensive suite of features. These
+              include contract management, online bidding management, design management, project
+              progress tracking using Earned Value Management (EVM), construction site reporting
+              with 360-degree photos, material procurement management, HRM functionalities, and
+              more.
             </p>
 
             <p>
