@@ -155,7 +155,7 @@ const About = () => {
           <div>
             <p>
               Hi there! My name is Cuong, and I am an experienced full-stack developer with a deep
-              interest in AI. I have over 5 years of experience with Python and 4 years with
+              interest in AI. I have 5+ years of experience with Python and 4+ years with
               JavaScript. In backend development, I have 4+ years of experience using Django, while
               in frontend development, I have 3 years of experience with both Vue.js and React.
             </p>
