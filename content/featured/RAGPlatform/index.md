@@ -3,7 +3,7 @@ date: '2'
 title: 'RAG Platform'
 cover: './demo.png'
 github: ''
-external: ''
+external: 'https://youtu.be/-CuiDeb7EsE'
 tech:
   - FastAPI
   - PostgreSQL
