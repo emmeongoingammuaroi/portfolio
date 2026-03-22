@@ -13,4 +13,4 @@ tech:
   - Heroku
 ---
 
-This tool aims to identify books available at competitive prices from Tiki and Fahasa, the two largest online bookstores in Vietnam. By analyzing prices from both platforms, users can access the best deals on their favorite titles.
+Web scraping tool that crawls Tiki and Fahasa — Vietnam's two largest online bookstores — to compare book prices and find the best deals. Built with Django, Beautiful Soup, and Selenium.

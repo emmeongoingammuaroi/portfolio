@@ -11,4 +11,4 @@ tech:
   - Keras
 ---
 
-This project endeavors to address the challenge of image captioning by employing two distinct architectures: CNN-Attention-GRU and CNN-Transformer. The models are trained on the Flickr8k dataset, comprising 8091 color images. By exploring multiple architectures and training on a rich dataset like Flickr8k, this project aims to enhance our understanding of effective methodologies for generating accurate and contextually relevant captions for images.
+Image captioning system using two architectures: CNN-Attention-GRU and CNN-Transformer. Trained on the Flickr8k dataset (8,091 images) to generate accurate, contextually relevant captions. Explores multiple model architectures to compare effectiveness in visual-to-text generation.

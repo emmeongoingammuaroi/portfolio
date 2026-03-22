@@ -13,4 +13,4 @@ tech:
   - Heroku
 ---
 
-The project is an IoT smart home system incorporating Django for the backend and Vue.js for the frontend. It utilizes MQTT to receive signals from IoT sensors and effectively stores data. The system is designed to issue warnings in case of any anomalies or malfunctions, providing users with enhanced control over their living environment. Additionally, users can conveniently control IoT devices through a user-friendly web interface or mobile app.
+IoT smart home system built with Django and Vue.js. Receives real-time signals from IoT sensors via MQTT, stores data, and issues warnings when anomalies or malfunctions are detected. Users can monitor and control IoT devices through a web interface or mobile app.

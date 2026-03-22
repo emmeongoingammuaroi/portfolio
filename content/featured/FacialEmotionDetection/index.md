@@ -11,4 +11,4 @@ tech:
   - Keras
 ---
 
-This project endeavors to employ deep convolutional neural networks to classify emotions displayed on individuals' faces into seven categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral. The model is trained on the FER-2013 dataset, presented at the International Conference on Machine Learning (ICML). The system accommodates input from either static images or live webcam streaming.
+Deep CNN-based facial emotion classifier that detects seven emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral. Trained on the FER-2013 dataset (ICML). Supports input from both static images and live webcam streaming.
