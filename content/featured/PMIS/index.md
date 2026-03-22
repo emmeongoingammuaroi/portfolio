@@ -5,7 +5,6 @@ cover: './demo.png'
 github: ''
 external: 'https://youtu.be/C7ijIPnHug4'
 tech:
-  - Python
   - Django
   - PostgreSQL
   - Nuxt.js
