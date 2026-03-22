@@ -2,7 +2,7 @@
 date: '2'
 title: 'RAG Platform'
 cover: './demo.png'
-github: ''
+github: 'https://github.com/emmeongoingammuaroi/rag-platform'
 external: 'https://youtu.be/-CuiDeb7EsE'
 tech:
   - FastAPI
