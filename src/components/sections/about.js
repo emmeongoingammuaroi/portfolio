@@ -127,7 +127,7 @@ const About = () => {
 
   const skills = [
     'Python',
-    'TypeScript / JavaScript',
+    'TypeScript / JS',
     'Django / DRF',
     'FastAPI',
     'Vue.js / Nuxt.js',
