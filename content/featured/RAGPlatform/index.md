@@ -16,4 +16,4 @@ tech:
   - Docker
 ---
 
-AI backend platform with Retrieval-Augmented Generation, vector search, and streaming LLM responses. Built on async FastAPI with JWT auth, background document ingestion via Celery, and semantic search through Qdrant. Full RAG pipeline — document chunking, embedding generation, and context-aware response streaming.
+Production-ready AI backend platform implementing Retrieval-Augmented Generation (RAG) with vector search and streaming responses. Architected an async FastAPI service with JWT-based authentication, background document ingestion, and distributed task processing. Designed a full RAG pipeline including document chunking, embedding generation, semantic search via Qdrant, and streaming LLM responses. Containerized and deployed with Docker, featuring CI/CD automation, structured logging, and production-grade configuration.

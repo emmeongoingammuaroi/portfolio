@@ -7,7 +7,7 @@ range: 'Mar 2024 – Feb 2026'
 url: ''
 ---
 
-- Built a financial reporting platform that integrates with accounting APIs to generate real-time P&L, Balance Sheet, and Cash Balance reports in Google Sheets.
-- Led migration from a Google Apps Script monolith to a 3-tier cloud-native architecture on Google Cloud Run, eliminating runtime constraints and improving scalability.
-- Designed automated report scheduling with dynamic parameters, multi-company switching, and persistent configuration via Google Sheets Developer Metadata API.
-- Strengthened release reliability through structured validation, regression testing, and CI/CD automation across Vercel and Cloud Run.
+- Built and maintained a financial reporting platform integrating with accounting service APIs to generate real-time financial reports (Profit & Loss, Balance Sheet, Cash Balance) in Google Sheets.
+- Led migration from a Google Apps Script monolith to a 3-tier cloud-native architecture (Node.js on Google Cloud Run), eliminating runtime constraints and significantly improving scalability and performance.
+- Designed and implemented a report management system featuring automated refresh scheduling, dynamic parameter updates, multi-company switching, and configuration persistence via Google Sheets Developer Metadata API.
+- Improved data integrity and release reliability through structured validation, regression testing, and CI/CD automation for deployments to Vercel and Google Cloud Run.
