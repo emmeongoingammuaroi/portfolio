@@ -127,18 +127,19 @@ const About = () => {
 
   const skills = [
     'Python',
-    'TypeScript',
+    'TypeScript / JavaScript',
     'Django / DRF',
     'FastAPI',
-    'NestJS',
+    'Vue.js / Nuxt.js',
+    'React / Next.js',
     'PostgreSQL',
     'MongoDB',
     'Redis',
-    'Elasticsearch',
     'AWS / GCP',
     'Docker / Kubernetes',
     'Celery',
-    'ArgoCD / Nginx',
+    'CI/CD',
+    'LangChain / LangGraph',
     'TensorFlow / PyTorch',
   ];
 
