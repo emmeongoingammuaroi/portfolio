@@ -151,29 +151,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! My name is Cuong, a Backend Engineer with 5+ years of experience
-              architecting and scaling production-grade systems across SaaS, fintech, AI, and
-              construction technology domains. I specialize in multi-tenant architectures,
-              distributed processing, and cloud-native backend systems using Python (Django,
-              FastAPI) and TypeScript on AWS and GCP.
+              Hi! I'm Cuong, a backend engineer with 5+ years of experience building
+              production-grade systems. I work primarily with Python (Django, FastAPI) and
+              TypeScript, deploying on AWS and GCP.
             </p>
 
             <p>
-              I have a strong foundation in system design, performance optimization, and reliability
-              engineering, with recent experience building AI-powered backend systems including RAG
-              pipelines and LLM integrations.
+              I've shipped multi-tenant SaaS platforms, real-time notification systems, financial
+              reporting tools, and AI-powered backends with RAG pipelines. I care deeply about clean
+              architecture, system reliability, and writing code that scales.
             </p>
 
             <p>
-              My most notable achievement is leading the development of FlowMaster, an
-              enterprise-grade multi-tenant construction management SaaS platform serving 1,000+
-              users across multiple organizations, featuring real-time collaboration, BIM/IFC
-              visualization, and full project lifecycle management.
+              Beyond backend, I'm comfortable across the full stack — from Vue.js and React
+              frontends to Docker, Kubernetes, and CI/CD pipelines. Recently, I've been diving
+              deeper into LLM integrations with LangChain and LangGraph.
             </p>
 
             <p>
-              Take a look at my portfolio to explore some of my standout projects. Don't hesitate to
-              reach out—I'd love to discuss how I can help bring your project to life.
+              Feel free to explore my work below, and don't hesitate to reach out if you'd like to
+              collaborate.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Nguyen Quoc Cuong',
     description:
-      'Nguyen Quoc Cuong is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Nguyen Quoc Cuong is a backend engineer specializing in scalable, production-grade systems across SaaS, fintech, and AI.',
     siteUrl: 'https://emmeongoingammuaroi.github.io/portfolio',
   },
   plugins: [
