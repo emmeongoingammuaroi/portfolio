@@ -127,23 +127,19 @@ const About = () => {
 
   const skills = [
     'Python',
-    'JavaScript',
     'TypeScript',
-    'Django',
-    'Vue.js',
-    'React',
-    'Node.js',
-    'Docker',
+    'Django / DRF',
+    'FastAPI',
+    'NestJS',
     'PostgreSQL',
     'MongoDB',
     'Redis',
     'Elasticsearch',
-    'Apache Kafka',
-    'RESTful API, GraphQL',
-    'Websocket',
-    'AWS',
-    'Nginx',
-    'TensorFlow/PyTorch',
+    'AWS / GCP',
+    'Docker / Kubernetes',
+    'Celery',
+    'ArgoCD / Nginx',
+    'TensorFlow / PyTorch',
   ];
 
   return (
@@ -154,35 +150,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! My name is Cuong, and I am an experienced full-stack developer with a deep
-              interest in AI. I have 5+ years of experience with Python and 4+ years with
-              JavaScript. In backend development, I have 4+ years of experience using Django, while
-              in frontend development, I have 3 years of experience with both Vue.js and React.
+              Hi there! My name is Cuong, a Backend Engineer with 5+ years of experience
+              architecting and scaling production-grade systems across SaaS, fintech, AI, and
+              construction technology domains. I specialize in multi-tenant architectures,
+              distributed processing, and cloud-native backend systems using Python (Django,
+              FastAPI) and TypeScript on AWS and GCP.
             </p>
 
             <p>
-              I excel in all stages of the software development lifecycle, from initial
-              conceptualization and design to seamless implementation and deployment. My proficiency
-              spans across backend, frontend, and DevOps.
+              I have a strong foundation in system design, performance optimization, and reliability
+              engineering, with recent experience building AI-powered backend systems including RAG
+              pipelines and LLM integrations.
             </p>
 
             <p>
-              Moreover, my expertise extends to system design, relational and non-relational
-              databases, SOLID principles, design patterns, algorithms, and a wide array of
-              AI-related fields, including data science, data analysis, machine learning, and deep
-              learning.
-            </p>
-
-            <p>
-              My best notable achievement is spearheading the development of PMIS, a multi-tenant
-              SaaS construction project management system. PMIS caters to over 1000 users across 4
-              prominent companies (DDIC, CH Group, EPM, Mitalab). Built with a robust tech stack
-              comprising Django, Django Rest Framework, Nuxt.js, PostgreSQL, Redis, Elasticsearch,
-              Celery, and hosted on AWS, PMIS offers a comprehensive suite of features. These
-              include contract management, online bidding management, design management, project
-              progress tracking using Earned Value Management (EVM), construction site reporting
-              with 360-degree photos, material procurement management, HRM functionalities, and
-              more.
+              My most notable achievement is leading the development of FlowMaster, an
+              enterprise-grade multi-tenant construction management SaaS platform serving 1,000+
+              users across multiple organizations, featuring real-time collaboration, BIM/IFC
+              visualization, and full project lifecycle management.
             </p>
 
             <p>

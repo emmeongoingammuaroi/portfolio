@@ -61,12 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Nguyen Quoc Cuong</h2>;
-  const three = <h3 className="big-heading">A codeophile</h3>;
+  const three = <h3 className="big-heading">I build scalable backend systems.</h3>;
   const four = (
     <>
       <p>
-        Excited to learn and grow as a software engineer, with a passion for creating user-friendly
-        tech products that make life better.
+        Backend Engineer with 5+ years of experience architecting production-grade systems across
+        SaaS, fintech, AI, and construction technology. Specialized in multi-tenant architectures,
+        distributed processing, and cloud-native backend systems.
       </p>
     </>
   );
