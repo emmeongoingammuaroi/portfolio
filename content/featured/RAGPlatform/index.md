@@ -8,7 +8,6 @@ tech:
   - FastAPI
   - PostgreSQL
   - SQLAlchemy
-  - Alembic
   - Redis
   - Celery
   - Qdrant
@@ -16,4 +15,4 @@ tech:
   - Docker
 ---
 
-Production-ready AI backend platform implementing Retrieval-Augmented Generation (RAG) with vector search and streaming responses. Architected an async FastAPI service with JWT-based authentication, background document ingestion, and distributed task processing. Designed a full RAG pipeline including document chunking, embedding generation, semantic search via Qdrant, and streaming LLM responses. Containerized and deployed with Docker, featuring CI/CD automation, structured logging, and production-grade configuration.
+AI backend platform implementing Retrieval-Augmented Generation with async FastAPI, JWT authentication, and distributed task processing. Documents are ingested in the background via Celery, chunked using a semantic splitting strategy, and embedded for vector storage in Qdrant with HNSW indexing for fast retrieval. Streaming responses are delivered via Server-Sent Events (SSE), enabling real-time token delivery from LLM APIs. Includes retry and fallback strategies for embedding and LLM calls, Redis-based caching for frequent queries, and structured logging for production observability.
