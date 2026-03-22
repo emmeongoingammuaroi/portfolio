@@ -1,20 +1,19 @@
 ---
 date: '1'
-title: 'PMIS'
+title: 'FlowMaster'
 cover: './demo.png'
 github: ''
 external: 'https://youtu.be/C7ijIPnHug4'
 tech:
+  - Python
   - Django
   - PostgreSQL
   - Nuxt.js
-  - RESTful API
-  - Websocket
-  - Docker
-  - AWS
-  - Redis
   - Celery
-  - Sentry
+  - Redis
+  - AWS
+  - Docker
+  - Nginx
 ---
 
-This system is designed for construction project management in accordance with PMI standards, offering a comprehensive suite of features. It includes contract management, online bidding management, design management, project progress tracking with Earned Value Management (EVM), construction site reporting with 360-degree photos, material procurement management, KPI management for project work, HRM functionalities, and more.
+Enterprise-grade multi-tenant construction management SaaS platform aligned with PMI standards. Architected a scalable backend with strict tenant isolation, real-time collaboration via WebSockets, and distributed task processing. Supports full project lifecycle workflows including contracts, bidding, EVM-based progress tracking, BIM/IFC visualization, drawing collaboration, 360° construction progress tracking, and procurement. Production system serving 1,000+ users across multiple organizations.
