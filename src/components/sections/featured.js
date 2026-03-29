@@ -293,11 +293,19 @@ const StyledProject = styled.li`
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1) brightness(90%);
 
+      img {
+        object-fit: contain !important;
+      }
+
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(50%);
+
+        img {
+          object-fit: cover !important;
+        }
       }
     }
   }
