@@ -16,7 +16,7 @@ tech:
   - Docker
 ---
 
-- **Async document ingestion pipeline:** upload → text extraction → chunking → embedding → Qdrant upsert via Celery background tasks
-- **Real-time token-streaming RAG chat** with dual LLM support (OpenAI and Anthropic) and semantic search over Qdrant
-- **JWT OAuth2 authentication**, Redis caching, and Pydantic v2 validation throughout
-- **CI/CD via GitHub Actions:** pytest → Docker build → GHCR push → SSH deploy with zero-downtime rollout and automatic Alembic migrations
+- Async document ingestion pipeline: upload → text extraction → chunking → embedding → Qdrant upsert via Celery background tasks
+- Real-time token-streaming RAG chat with dual LLM support (OpenAI and Anthropic) and semantic search over Qdrant
+- JWT OAuth2 authentication, Redis caching, and Pydantic v2 validation throughout
+- CI/CD via GitHub Actions: pytest → Docker build → GHCR push → SSH deploy with zero-downtime rollout and automatic Alembic migrations
