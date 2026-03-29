@@ -65,9 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a backend engineer specializing in cloud-native architectures, distributed systems, and
-        AI-powered platforms. Currently building enterprise SaaS and RAG systems with Python and
-        TypeScript.
+        I'm a backend engineer specialized in Python (FastAPI, Django) with deep expertise in LLM
+        integrations, RAG pipelines, and multi-agent workflows using LangGraph and MCP. Currently
+        building production AI backends and enterprise SaaS.
       </p>
     </>
   );

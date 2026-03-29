@@ -8,11 +8,12 @@ tech:
   - FastAPI
   - PostgreSQL
   - SQLAlchemy
-  - Redis
-  - Celery
   - Qdrant
   - OpenAI
+  - Anthropic
+  - Redis
+  - Celery
   - Docker
 ---
 
-AI backend platform implementing Retrieval-Augmented Generation with async FastAPI, JWT authentication, and distributed task processing. Documents are ingested in the background via Celery, chunked using a semantic splitting strategy, and embedded for vector storage in Qdrant with HNSW indexing for fast retrieval. Streaming responses are delivered via Server-Sent Events (SSE), enabling real-time token delivery from LLM APIs. Includes retry and fallback strategies for embedding and LLM calls, Redis-based caching for frequent queries, and structured logging for production observability.
+Production AI backend with a full async document ingestion pipeline: upload → text extraction → chunking → embedding → Qdrant upsert via Celery background tasks, with real-time token-streaming RAG chat responses. Dual LLM support (OpenAI and Anthropic) with semantic search over Qdrant, JWT OAuth2 authentication, Redis caching, and Pydantic v2 validation throughout. CI/CD pipeline via GitHub Actions: runs pytest, builds and pushes Docker image to GHCR, then deploys via SSH with zero-downtime docker compose rollout and automatic Alembic migrations.

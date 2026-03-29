@@ -127,20 +127,20 @@ const About = () => {
 
   const skills = [
     'Python',
-    'TypeScript / JS',
-    'Django / DRF',
+    'TypeScript',
     'FastAPI',
-    'Vue.js / Nuxt.js',
-    'React / Next.js',
+    'Django',
+    'Node.js',
+    'LangGraph / LangChain',
+    'OpenAI / Anthropic SDKs',
+    'MCP',
     'PostgreSQL',
-    'MongoDB',
-    'Redis',
+    'MongoDB / Redis',
+    'Qdrant',
     'AWS / GCP',
     'Docker / Kubernetes',
-    'Celery',
-    'CI/CD',
-    'LangChain / LangGraph',
-    'TensorFlow / PyTorch',
+    'CI/CD (GitHub Actions)',
+    'React / Vue',
   ];
 
   return (
@@ -151,21 +151,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi! I'm Cuong, a backend engineer with 5+ years of experience building
-              production-grade systems. I work primarily with Python (Django, FastAPI) and
-              TypeScript, deploying on AWS and GCP.
+              Hi! I'm Cuong, a backend engineer with 5+ years delivering production systems across
+              SaaS, fintech, and AI — from multi-tenant platforms serving 1,000+ users to real-time
+              notification systems handling thousands of concurrent connections.
             </p>
 
             <p>
-              I've shipped multi-tenant SaaS platforms, real-time notification systems, financial
-              reporting tools, and AI-powered backends with RAG pipelines. I care deeply about clean
-              architecture, system reliability, and writing code that scales.
+              I specialize in Python (FastAPI, Django) with deep expertise in LLM integrations, RAG
+              pipelines, and multi-agent workflows using LangGraph and MCP. I've also shipped
+              financial reporting tools, real-time streaming architectures, and cloud-native
+              services on AWS and GCP.
             </p>
 
             <p>
-              Beyond backend, I'm comfortable across the full stack — from Vue.js and React
-              frontends to Docker, Kubernetes, and CI/CD pipelines. Recently, I've been diving
-              deeper into LLM integrations with LangChain and LangGraph.
+              I have a strong foundation in distributed systems, async architecture, and
+              cloud-native infrastructure — from Docker and Kubernetes to CI/CD with GitHub Actions
+              and ArgoCD.
             </p>
 
             <p>

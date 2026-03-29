@@ -1,16 +1,18 @@
 ---
 date: '3'
-title: 'IoT Smart Home'
+title: 'reviewflow'
 cover: './demo.png'
-github: 'https://github.com/emmeongoingammuaroi/IOT'
+github: 'https://github.com/emmeongoingammuaroi/reviewflow'
 external: ''
 tech:
-  - Django
+  - Python
+  - LangGraph
+  - FastAPI
+  - OpenAI
+  - Qdrant
   - PostgreSQL
-  - Vue.js
-  - RESTful API
-  - MQTT
-  - Heroku
+  - MCP
+  - Docker
 ---
 
-IoT smart home system built with Django and Vue.js. Receives real-time signals from IoT sensors via MQTT, stores data, and issues warnings when anomalies or malfunctions are detected. Users can monitor and control IoT devices through a web interface or mobile app.
+Built a 6-node LangGraph StateGraph (fetch_diff → retrieve_standards → review_code → format_response → human_review → log_eval) with PostgreSQL checkpointing and interrupt/resume human-in-the-loop cycle. Architected a load-bearing MCP server with dual transports (SSE for the LangGraph agent, stdio for Claude Desktop) as the exclusive data access path for agent nodes. RAG pipeline embeds domain coding standards into Qdrant and retrieves semantically relevant documents at review time to ground GPT-4o structured feedback. Eval framework persists prompt/response pairs, per-node latency, and LLM scores to PostgreSQL for model quality tracking over time.

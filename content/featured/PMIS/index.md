@@ -5,13 +5,15 @@ cover: './demo.png'
 github: ''
 external: 'https://youtu.be/C7ijIPnHug4'
 tech:
+  - Python
   - Django
-  - PostgreSQL
   - Nuxt.js
+  - PostgreSQL
   - Celery
   - Redis
   - AWS
   - Docker
+  - Nginx
 ---
 
-Multi-tenant construction management SaaS serving 1,000+ users across multiple organizations. Designed a tenant-isolated architecture using schema-based multi-tenancy in PostgreSQL, ensuring strict data separation and per-tenant scalability. Handled high-concurrency workflows by combining WebSocket-based real-time updates with Celery and Redis for distributed background processing. Implemented idempotent task execution and retry strategies to ensure reliability in long-running operations such as BIM/IFC processing and document workflows. Covers full project lifecycle — contracts, bidding, EVM-based progress tracking, drawing collaboration, 360° site reporting, and procurement.
+Enterprise multi-tenant construction SaaS serving 1,000+ users across multiple organizations, aligned with PMI standards. Architected tenant-isolated backend with strict data separation, real-time WebSocket collaboration, and distributed Celery task processing. Full project lifecycle: contracts, bidding, EVM-based progress tracking, BIM/IFC visualization, procurement, and internal operations.
